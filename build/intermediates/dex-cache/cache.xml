@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/8f02ac04d6e8784a46446aef9b3193a752ace7a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_45533d5c85abdd1e24c05564c9840b7e13a71a9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/0aa77be25c245b798490b0376111516ac55f9536/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ee454b751da9cb3752f4562a79366892bacdcab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_54b7af759304e1622d0f42b199a09b611b37e929/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="51af71efce5e66b251e915b085fef8293e1fe0d3">
+        <dex dex="/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e0a427edf6168a960c10ef76635b1e6985234208/classes.dex" />
+    </item>
+
+</items>

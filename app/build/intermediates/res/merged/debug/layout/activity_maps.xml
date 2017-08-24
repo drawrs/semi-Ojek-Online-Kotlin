@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khilman.mapkotlinretrofit.MapsActivity" >
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:id="@+id/edtdarimana"
+        android:hint="Dari Mana ?"
+        android:layout_below="@+id/txtjarak"
+        android:layout_alignLeft="@+id/edtkemana"
+        android:layout_alignStart="@+id/edtkemana" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edtdarimana"
+        android:layout_height="30dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:id="@+id/edtkemana"
+        android:layout_margin="10dp"
+        android:hint="Kemana ?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:padding="20dp"
+        android:id="@+id/txtjarak"
+        android:text="Jarak : 34 km"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:padding="20dp"
+        android:id="@+id/txtharga"
+        android:layout_toRightOf="@+id/txtjarak"
+        android:text="Harga : $ 900"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:id="@+id/txttime"
+        android:layout_toRightOf="@+id/txtharga"
+        android:padding="20dp"
+        android:text="Time : now"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheckIn"
+        android:text="CHECK IN"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
