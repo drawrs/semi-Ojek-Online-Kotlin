@@ -4,6 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Path
+import android.location.Location
+import android.location.LocationProvider
 import android.os.Build
 import android.support.v4.app.FragmentActivity
 import android.os.Bundle
@@ -78,8 +80,8 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
         mMap!!.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, 17.toFloat()))
         mMap!!.uiSettings.isZoomControlsEnabled = true
         mMap!!.uiSettings.isCompassEnabled = true
-
-        mMap!!.mapType = GoogleMap.MAP_TYPE_HYBRID
+        // tipe peta
+        mMap!!.mapType = GoogleMap.MAP_TYPE_NORMAL
     //    mMap!!.uiSettings.isMyLocationButtonEnabled = true
         //mMap!!.isMyLocationEnabled = true
       //  mMap!!.isTrafficEnabled = true
@@ -100,12 +102,16 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
         edtkemana.setOnClickListener {
             completeAuto(2)
         }
+        btnCheckIn.setOnClickListener {
+            Toast.makeText(applicationContext, "Coming Soon..", Toast.LENGTH_SHORT).show()
+        }
 
     }
 
     private fun completeAuto(i: Int) {
         val typeFilter = AutocompleteFilter.Builder()
-                .setTypeFilter(Place.TYPE_LAUNDRY).setCountry("ID")
+                //.setTypeFilter(Place.TYPE_LAUNDRY) Filter berdasarkan tipe tempat
+                .setCountry("ID") // nah ini filter daerah indonesia aja
                 .build()
         var intent = PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY).setFilter(typeFilter)
                 .build(this@MapsActivity)
@@ -118,6 +124,7 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         try {
+            // Ambil koordinat dari mana
             // check key
             if (requestCode == 1 && resultCode != null){
                 // get data pengambilan
@@ -145,6 +152,7 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
                 // get data pengembalian
 
             }
+            // ambil koordinat kemana
             else if (requestCode == 2 && resultCode != null){
                 // get data pengambilan
                 var place = PlaceAutocomplete.getPlace(this, data)
@@ -180,7 +188,14 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if(requestCode == 2){
             mMap!!.isMyLocationEnabled = true
+            //mMap!!.setOnMyLocationButtonClickListener(GoogleMap.OnMyLocationButtonClickListener { MyLocationClicked() })
         }
+    }
+
+    private fun MyLocationClicked(): Boolean {
+        // ketika my location di klik
+        Toast.makeText(applicationContext, "Telusuri..", Toast.LENGTH_SHORT).show()
+        return false
     }
 
     private fun actionRoute() {
@@ -208,7 +223,7 @@ class MapsActivity : FragmentActivity(), OnMapReadyCallback {
                         var jarak = route?.get(0)?.legs?.get(0)?.distance?.text
                         var jarak_meter = route?.get(0)?.legs?.get(0)?.distance?.value
                         var waktu = route?.get(0)?.legs?.get(0)?.duration?.text
-                        var harga = (jarak_meter!!/1000) * 75000
+                        var harga = (jarak_meter!!/1000) * 75000 // 75000 itu tarif permeternya
 
                         txtjarak.setText("Jarak : " + jarak)
                         txtharga.setText("Harga : " + harga)

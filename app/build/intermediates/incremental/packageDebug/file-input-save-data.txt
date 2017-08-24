@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 24 16:04:02 WIB 2017
+#Thu Aug 24 21:43:49 WIB 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_custom.xml

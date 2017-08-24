@@ -1,4 +1,4 @@
-#Thu Aug 24 16:03:56 WIB 2017
+#Thu Aug 24 21:43:45 WIB 2017
 base.0=/home/khilman/Documents/training-minggu-pertama/MapKotlinRetrofit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e0a427edf6168a960c10ef76635b1e6985234208
 renamed.1=classes2.dex
 renamed.0=classes.dex
