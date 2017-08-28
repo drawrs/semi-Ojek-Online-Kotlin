@@ -6,10 +6,9 @@ Untuk API masih menggunakan API debug, jangan lupa untuk mengganti API ketika su
 Semoga bermanfaat !
 
 <h3>Contact Me :)</h3>
-
 Perlu bantuan atau mau diskusi ? bisa hubungi saya disalah satu kontak berikut:<br/>
 Email : rizal.drawrs@gmail.com<br/>
-FB: fb.me/rizal.ofdraw<br/>
+FB: http://fb.me/rizal.ofdraw<br/>
 
 <h3>Screen Shot Aplikasi</h3>
 <a href="https://ibb.co/eZNnCQ"><img src="https://preview.ibb.co/g7xLXQ/photo_2017_08_24_22_57_54.jpg" alt="photo_2017_08_24_22_57_54" border="0"></a>
