@@ -13,3 +13,9 @@ Semoga bermanfaat !
 <a href="https://ibb.co/iwOYmk"><img src="https://preview.ibb.co/eDdcCQ/photo_2017_08_24_22_57_56.jpg" alt="photo_2017_08_24_22_57_56" border="0"></a>
 <a href="https://ibb.co/fwy5z5"><img src="https://preview.ibb.co/fSqw6k/photo_2017_08_24_22_57_55_2.jpg" alt="photo_2017_08_24_22_57_55_2" border="0"></a>
 <a href="https://ibb.co/bAtG6k"><img src="https://preview.ibb.co/bJbEsQ/photo_2017_08_24_22_57_55.jpg" alt="photo_2017_08_24_22_57_55" border="0"></a>
+
+#Contact Me :)
+
+Perlu bantuan atau mau diskusi ? bisa hubungi saya disalah satu kontak berikut:
+Email : rizal.drawrs@gmail.com
+FB: fb.me/rizal.ofdraw
