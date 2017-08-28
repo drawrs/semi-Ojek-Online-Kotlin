@@ -5,6 +5,12 @@ Untuk API masih menggunakan API debug, jangan lupa untuk mengganti API ketika su
 
 Semoga bermanfaat !
 
+<h3>Contact Me :)</h3>
+
+Perlu bantuan atau mau diskusi ? bisa hubungi saya disalah satu kontak berikut:
+Email : rizal.drawrs@gmail.com
+FB: fb.me/rizal.ofdraw
+
 <h3>Screen Shot Aplikasi</h3>
 <a href="https://ibb.co/eZNnCQ"><img src="https://preview.ibb.co/g7xLXQ/photo_2017_08_24_22_57_54.jpg" alt="photo_2017_08_24_22_57_54" border="0"></a>
 <a href="https://ibb.co/ihChe5"><img src="https://preview.ibb.co/dgG8K5/photo_2017_08_24_22_57_56_3.jpg" alt="photo_2017_08_24_22_57_56_3" border="0"></a>
@@ -14,8 +20,3 @@ Semoga bermanfaat !
 <a href="https://ibb.co/fwy5z5"><img src="https://preview.ibb.co/fSqw6k/photo_2017_08_24_22_57_55_2.jpg" alt="photo_2017_08_24_22_57_55_2" border="0"></a>
 <a href="https://ibb.co/bAtG6k"><img src="https://preview.ibb.co/bJbEsQ/photo_2017_08_24_22_57_55.jpg" alt="photo_2017_08_24_22_57_55" border="0"></a>
 
-#Contact Me :)
-
-Perlu bantuan atau mau diskusi ? bisa hubungi saya disalah satu kontak berikut:
-Email : rizal.drawrs@gmail.com
-FB: fb.me/rizal.ofdraw
